@@ -2192,6 +2192,7 @@ img{
 	background-attachment:fixed;
 	padding:100px 0px;
 	text-align:center;
+	margin-bottom: 100px;
 }
 
 .testimonial-style-one:before{
@@ -4348,6 +4349,7 @@ img{
 	background-size:cover;
 	background-position:center center;
 	overflow:hidden;
+	margin-bottom: 100px;
 }
 
 .best-service-two:before{
@@ -6089,12 +6091,14 @@ img{
 	position:relative;
 	display:block;
 	width:100%;
+	height: 250px;
 	overflow:hidden;	
 }
 
 .default-services-block .image-box img{
 	display:block;
-	width:100%;	
+	width:100%;
+	height: 250px;
 }
 
 .default-services-block .image-box .overlay-box{
@@ -6301,6 +6305,7 @@ img{
 .service-types .service-type .image-box img{
 	display:block;
 	width:100%;	
+	height: 250px;
 }
 
 .service-types .service-type .lower-content{
@@ -7544,3 +7549,51 @@ img{
     z-index: 2 !important;
     position: relative;
 }
+
+.newsletter-widget .form-group {
+    position: relative;
+    margin-top: 15px;
+}
+
+.newsletter-widget input[type="email"] {
+    width: 100%;
+    padding: 10px 45px 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.newsletter-widget input[type="email"]::placeholder {
+    color: #aaa;
+}
+
+.newsletter-widget .theme-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45px;
+    background: #1158E7; /* Your brand color */
+    border: none;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.newsletter-widget .theme-btn:hover {
+    background: #e65c00; /* Slightly darker shade */
+}
+.footer-bottom .clearfix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
