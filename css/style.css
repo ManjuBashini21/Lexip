@@ -583,6 +583,8 @@ img{
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;	
+	width: 330px;
+	height: 60px;
 }
 
 .main-header .nav-toggler{
@@ -3985,6 +3987,10 @@ img{
 .main-footer .gallery-widget .item img{
 	display:block;
 	width:100%;
+}
+
+.footer-logo{
+	margin-bottom: 20px;
 }
 
 .gallery-widget .owl-controls{
