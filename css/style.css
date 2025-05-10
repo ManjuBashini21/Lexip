@@ -7608,3 +7608,137 @@ img{
 	height: 80px;
 	margin: auto;
 }
+
+
+@media screen and (width:768px) {
+	.slide-container h2{
+		font-size: 50px;
+	}
+
+	.slide-container .text{
+		font-size: 30px;
+	}
+
+	.slide-container a{
+		font-size: 22px;
+	}
+
+	.main-slider .tparrows.preview3::after{
+		display: none;
+	}
+}
+
+@media screen and (width:820px) {
+	.slide-container h2{
+		font-size: 50px;
+	}
+
+	.slide-container .text{
+		font-size: 30px;
+	}
+
+	.slide-container a{
+		font-size: 22px;
+	}
+
+	.main-slider .tparrows.preview3::after{
+		display: none;
+	}
+}
+
+@media screen and (width:912px) {
+	.slide-container h2{
+		font-size: 35px !important;
+	}
+
+	.slide-container .text{
+		font-size: 21px !important;
+	}
+
+	.slide-container a{
+		font-size: 22px !important;
+	}
+
+	.main-slider .tparrows.preview3::after{
+		display: none;
+	}
+}
+
+@media screen and (width:540px) {
+	.slide-container h2{
+		font-size: 25px !important;
+		line-height: 62px;
+	}
+
+	.slide-container .text{
+		font-size: 15px !important;
+		line-height: 52px;
+	}
+
+	.slide-container a{
+		font-size: 12px !important;
+	}
+
+	.main-slider .tparrows.preview3::after{
+		display: none;
+	}
+
+	.main-header .header-top .top-right ul li, .main-header .header-top .top-left ul li{
+		margin: 0px -1px !important;
+		font-size: 11px !important;
+	}
+
+	.main-header .main-box .logo-box{
+		width: 230px !important;
+	}
+
+	.main-slider .tp-caption {
+		display: block !important;
+	}
+}
+
+@media screen and (width:853px) {
+	.slide-container h2{
+		font-size: 25px !important;
+		line-height: 62px;
+	}
+
+	.slide-container .text{
+		font-size: 20px !important;
+		line-height: 52px;
+	}
+
+	.slide-container a{
+		font-size: 16px !important;
+	}
+
+	.main-slider .tparrows.preview3::after{
+		display: none;
+	}
+
+	.main-header .header-top .top-right ul li, .main-header .header-top .top-left ul li{
+		margin: 0px -1px !important;
+		font-size: 15px !important;
+	}
+
+	.main-header .main-box .logo-box{
+		width: 230px !important;
+	}
+
+	.main-slider .tp-caption {
+		display: block !important;
+	}
+}
+
+@media screen and (width:768){
+	.our-services{
+		width: none;
+		height: 500px !important;
+	}
+}
+
+@media screen and (width:1024px) {
+	.service-block-three .inner-box{
+		padding: 17px 71px !important;
+	}
+}
