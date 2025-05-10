@@ -435,7 +435,7 @@ img{
     padding-right: 6px;
 }
 
-.main-header .header-top .top-right ul li{
+.main-header .header-top .top-right ul li , .main-header .header-top .top-right ul li a{
 	position:relative;
 	display:inline-block;
 	line-height:24px;
@@ -3725,6 +3725,10 @@ img{
 	padding:10px 0px 10px 30px;
 	line-height:24px;
 	border-bottom:1px solid rgba(255,255,255,0.10);
+}
+
+.main-footer .contact-info li a{
+	color: #bebebe;
 }
 
 .main-footer .contact-info li:last-child{
@@ -7740,5 +7744,9 @@ img{
 @media screen and (width:1024px) {
 	.service-block-three .inner-box{
 		padding: 17px 71px !important;
+	}
+
+	.contact-section .info-column{
+		margin: 0px 250px 0px 260px !important;
 	}
 }
